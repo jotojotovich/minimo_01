@@ -1,0 +1,120 @@
+header .navbar-light{
+  
+}
+
+header{
+    z-index: 999;
+}
+
+.custom-nav{
+    background-color: rgb(255, 238, 7);
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 900;
+}
+
+.custom-nav-flex{
+    align-items: flex-start;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+.container .nav-link{
+    text-transform: uppercase;
+    font-size: .7em;
+    margin: 0 15px;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    /* background-color: sandybrown; */
+
+    color: slategrey;
+    max-width: 800px;
+}
+
+.logo{
+    width: 25%;
+    transition: .4s;
+}
+
+.logo:hover{
+    width: 30%;
+}
+
+.blocks-150{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    outline: 1px solid #00f;
+}
+
+.blocks-150 div{
+    width:150px; height:150px; background:#ececec;
+    margin-bottom: 15px;
+    transition: 1.5s;
+}
+
+.blocks-150 .empty-block{
+    cursor: pointer;
+}
+
+.blocks-150 .empty-block:hover{
+    background-color: #000;
+    width:150px; height:150px;
+    border-radius: 50%;
+    border: 75px solid orange;
+    transform: rotate(-360deg);
+}
+
+.blocks-150 li{
+    font-size: 15px;
+}
+
+.animate{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        
+        animation-duration: 8s;
+}
+
+.animate-start{
+    animation-name: example;
+}
+
+    
+      
+      @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+      }
+
+
+
+
+footer{
+    background-color: #f0f0f0;
+    margin-top: 200px;
+    padding: 40px 0;
+    color: #000;
+}
+
+
+
+.test   {
+    transition : width 2s ease 100ms, height 1s linear 2s, background 0s 4s;
+    /* Для свойства width мы устанавливаем длительность эффекта перехода равную 2 секунды, при этом эффект перехода начинается медленно, затем незначительно ускоряется и в конце опять замедляется (ease) и это всё происходит с предварительной задержкой в 100 миллисекунд.
+    Для свойства height мы устанавливаем длительность эффекта перехода равную 1 секунде, при этом эффект перехода происходит с одинаковой скоростью от начала до конца (linear) и это всё происходит с предварительной задержкой в 2 секунды.
+    Свойство background будет применено с задержкой 4 секунды. */
+    }
